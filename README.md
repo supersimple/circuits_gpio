@@ -219,7 +219,7 @@ The following advice from Elixir/ALE may also be useful: You'll need to fake out
 the hardware. Code to do this depends on what your hardware actually does, but
 here's one example:
 
-* http://www.cultivatehq.com/posts/compiling-and-testing-elixir-nerves-on-your-host-machine/
+* [Compiling and testing Elixir Nerves on your host machine](https://cultivatehq.com/posts/compiling-and-testing-elixir-nerves-on-your-host-machine/)
 
 ### How do I call Circuits.GPIO from Erlang?
 
