@@ -47,6 +47,7 @@ jobs:
       - run: mix test
       - run: mix docs
       - run: mix dialyzer --halt-exit-status
+      - run: mdl --style ./md-style.rb *.md
       - save_cache:
           key: v1-mix-cache-{{ checksum "mix.lock" }}
           paths:
